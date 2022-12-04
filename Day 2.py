@@ -31,7 +31,7 @@ def part1():
             totalScore += 3
 
         totalScore+= (rps.index(me) + 1)
-    print(totalScore)
+    return totalScore
             
         
         
@@ -71,8 +71,7 @@ def part2():
         
 
         
-    print(totalScore)
-            
+    return totalScore            
         
 
 
@@ -81,4 +80,5 @@ def get_input(fileName):
     with open(f"./Input/{fileName}", "r") as f:
         return f.read()
 
-part2()
+print("Part 1:", part1())
+print("Part 2:", part2())
