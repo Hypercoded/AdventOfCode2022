@@ -53,7 +53,6 @@ def main(part):
             values = values.split(" ")
             values = [int(x) for x in values]
 
-
             amnt = values[0]
             origin = values[1] - 1
             dest = values[2] - 1
